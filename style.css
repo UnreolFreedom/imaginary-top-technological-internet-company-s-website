@@ -1,0 +1,181 @@
+
+html {
+    overflow-x: hidden;
+}
+
+.margin-left-27 {
+    margin-left: 27px;
+}
+
+.margin-left-40 {
+    margin-left: 40px;
+}
+
+#jumbotron {
+    background-image:url(Images/internet.jpg); height: 1080px;
+    
+}
+
+#content-jumbo {
+    margin-left: 850px;
+    margin-top: 200px;
+
+    
+}
+
+
+.graph {
+    margin-left: 180px;
+    
+}
+
+.graph img {
+    object-fit: cover;
+    height: 500px;
+    float: left;
+    box-shadow: 4px 4px 10px 0;
+}
+
+.graph-text {
+    float: left;
+    padding-left: 50px;
+}
+
+#id1 img {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+#id2 img {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+#id3 img {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+section table {
+    width: 70% !important; 
+    text-align: center; 
+    margin-left: 250px;
+    
+    
+}
+
+section table tr td {
+    padding: 30px !important;
+    font-size: 20px !important;
+}
+
+section table tr th {
+    font-size: 20px !important;
+}
+
+.paragraph {
+    margin-top: 20px;
+    background-color: #d9d9d9 !important;
+    border: 1px solid !important;
+    border-radius: 30px;
+    
+   
+
+}
+
+
+
+#inner-container {
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: #343A40;
+    color: white;
+    width: 70% !important;
+    padding: 50px !important;
+    margin-left: 250px;
+    text-align: center;
+}
+
+#inner-container a {
+    color: red;
+}
+
+.hr-white {
+    background-color: white;
+}
+
+.image {
+    width: 130px;
+    height: 130px;
+    
+}
+
+
+/*Media*/
+
+@media screen and (max-width: 1000px)
+       {
+           #content-jumbo {
+               margin-left: 10px;
+           }
+       }
+
+
+@media screen and (max-width: 1000px)
+       {
+           .image {
+               margin-left: 190px;
+           }
+       }
+
+
+
+@media screen and (max-width: 1690px)
+    {
+        .graph {
+            margin-left: 40px;
+        }
+    }
+
+@media screen and (max-width: 1800px)
+       {
+           .graph-text {
+               margin-top: 50px;
+               margin-left: 90px;
+           }
+       }
+
+@media screen and (max-width: 710px)
+       {
+           .graph img {
+               width: 400px;
+               height: 400px;
+               object-fit: cover;
+               margin-left: 50px;
+           }
+       }
+
+
+
+
+@media screen and (max-width: 600px)
+{
+    section table {
+        
+        left: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+
+@media screen and (max-width: 600px)
+{
+    #inner-container {
+        
+        left: 0 !important;
+        margin: 0 !important;
+        
+    }
+}
+
+
